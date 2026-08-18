@@ -16,17 +16,28 @@ Abaixo está o mapa visual da rede montada dentro do simulador:
 
 
 
-### Dispositivos e Conexões Utilizadas:
-* **PC:** Conectado ao roteador usando um cabo de rede comum (cabo Ethernet).
-* **Roteador Sem Fio:** Recebe o sinal e distribui a internet por cabo e por Wi-Fi.
-* **Cable Modem:** Aparelho que converte o sinal de internet que vem da rua (cabo coaxial) para a nossa rede de casa.
-* **Notebook:** Conectado à rede sem fio (Wi-Fi).
+Dispositivos Físicos
+
+- 1 PC de Mesa (à esquerda): Conectado via cabo de rede ao switch e via cabo de console ao switch.
+- 1 Switch (em baixo): Centraliza as conexões locais de dados e gerenciamento.
+- 1 Roteador (no centro): Conecta a rede local do switch e do PC à outra extremidade.
+- 1 Laptop (à direita): Conectado diretamente à interface de rede do roteador.
+
+Conexões e Cabos
+
+Cabo Ethernet (Linha Preta Contínua):
+
+- Conecta a interface Fa0 do PC à porta Fa0/6 do Switch.
+- Conecta a porta Fa0/5 do Switch à interface Gig0/0/1 do Roteador.
+- Conecta a interface Gig0/0/0 do Roteador à porta Fa0 do Laptop.
+- Cabo de Console (Linha Azul):
+- Conecta a porta serial/RS232 do PC diretamente à porta de console do Switch (porta Fa0/5 / Console), permitindo o gerenciamento CLI (linha de comando) do dispositivo.
 
 ---
 
 ## Passo a Passo do que foi feito
 
-### 1. Configurando o PC de Mesa (Conexão via Cabo)
+### 1. Configurando o PC(Conexão via Cabo)
 Para o computador funcionar na rede, ele precisa de um "endereço" exclusivo, chamado **Endereço IP**. 
 
 Ativei a opção **DHCP**, que faz com que o roteador entregue esse endereço automaticamente para o computador, sem precisarmos digitar nada manualmente.
