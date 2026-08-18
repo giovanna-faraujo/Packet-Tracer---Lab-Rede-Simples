@@ -12,7 +12,6 @@ O objetivo foi conectar dois computadores — um de mesa (via cabo) e um noteboo
 
 Abaixo está o mapa visual da rede montada dentro do simulador:
 
-## Esquema da Rede Montada
 <img width="1197" height="661" alt="Visão Geral" src="https://github.com/user-attachments/assets/1891b0e9-73a6-411b-8027-5fca7547e2f0" />
 
 
