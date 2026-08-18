@@ -16,16 +16,14 @@ Abaixo está o mapa visual da rede montada dentro do simulador:
 
 
 
-Dispositivos Físicos
+### Dispositivos Físicos
 
 - 1 PC de Mesa (à esquerda): Conectado via cabo de rede ao switch e via cabo de console ao switch.
 - 1 Switch (em baixo): Centraliza as conexões locais de dados e gerenciamento.
 - 1 Roteador (no centro): Conecta a rede local do switch e do PC à outra extremidade.
 - 1 Laptop (à direita): Conectado diretamente à interface de rede do roteador.
 
-Conexões e Cabos
-
-Cabo Ethernet (Linha Preta Contínua):
+### Conexões e Cabos- Cabo Ethernet (Linha Preta Contínua):
 
 - Conecta a interface Fa0 do PC à porta Fa0/6 do Switch.
 - Conecta a porta Fa0/5 do Switch à interface Gig0/0/1 do Roteador.
@@ -52,14 +50,7 @@ Ativei a opção **DHCP**, que faz com que o roteador entregue esse endereço au
 
 ---
 
-### 2. Configurando o Notebook (Conexão via Wi-Fi)
-Os notebooks no simulador vêm de fábrica apenas com entrada para cabo. Para conectar via Wi-Fi, fiz a troca da placa de rede:
-
-1. Desliguei o notebook virtual.
-2. Removi a placa de cabo e encaixei a placa de Wi-Fi (**WPC300N**).
-3. Religuei o notebook e conectei à rede sem fio chamada `HomeNetwork`.
-
-* **Conferindo as configurações de rede do Notebook:**
+### 2. Configurando o Notebook
 
 <img width="692" height="671" alt="Configuração Laptop" src="https://github.com/user-attachments/assets/7a55863f-360a-4a16-8ed4-cf1ce5f2d7b0" />
 
@@ -79,7 +70,7 @@ Os notebooks no simulador vêm de fábrica apenas com entrada para cabo. Para co
 * **Cisco Packet Tracer:** Software de simulação de redes.
 * **DHCP:** O "distribuidor" automático de endereços de internet da rede.
 * **IP:** O "RG" de cada aparelho conectado na rede.
-* **Cabo de Rede vs. Wi-Fi:** Como configurar e alternar entre conexões físicas e sem fio.
+* **Cabo de Rede** Como configurar e alternar entre conexões físicas.
 * **Comando `ipconfig`:** Usado no terminal para descobrir o endereço IP do próprio computador.
 
 > **Nota de Isenção e Atribuição:**
