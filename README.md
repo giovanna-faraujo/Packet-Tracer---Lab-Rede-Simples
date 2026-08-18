@@ -4,7 +4,7 @@
 
 Neste laboratório, montei do zero uma **rede doméstica simples** (parecida com a que temos em casa). 
 
-O objetivo foi conectar dois computadores — um de mesa (via cabo) e um notebook (via Wi-Fi) — a um roteador e modem, garantindo que ambos conseguissem navegar na internet e acessar um site de teste.
+O objetivo foi conectar dois computadores; um de mesa (via cabo) e um notebook (via Wi-Fi); a um roteador e modem, garantindo que ambos conseguissem navegar na internet e acessar um site de teste.
 
 ---
 
@@ -17,7 +17,7 @@ Abaixo está o mapa visual da rede montada dentro do simulador:
 
 
 ### Dispositivos e Conexões Utilizadas:
-* **PC de Mesa:** Conectado ao roteador usando um cabo de rede comum (cabo Ethernet).
+* **PC:** Conectado ao roteador usando um cabo de rede comum (cabo Ethernet).
 * **Roteador Sem Fio:** Recebe o sinal e distribui a internet por cabo e por Wi-Fi.
 * **Cable Modem:** Aparelho que converte o sinal de internet que vem da rua (cabo coaxial) para a nossa rede de casa.
 * **Notebook:** Conectado à rede sem fio (Wi-Fi).
