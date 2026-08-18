@@ -1,12 +1,5 @@
 # Rede Residencial no Cisco Packet Tracer
 
-> **Nota de Isenção e Atribuição:**
-> Este repositório contém resoluções pessoais, anotações e configurações desenvolvidas por mim para fins de estudo e demonstração prática de habilidades. 
-> O exercício original faz parte do currículo da **Cisco Networking Academy (NetAcad)** (*Atividade: Criando uma Rede Simples*). 
-> Todos os direitos sobre conceitos e marcas registradas pertencem à Cisco Systems, Inc. Nenhum material proprietário ou protegido por direitos autorais da plataforma é redistribuído aqui.
-
----
-
 ## O que é este projeto?
 
 Neste laboratório, montei do zero uma **rede doméstica simples** (parecida com a que temos em casa). 
@@ -24,7 +17,7 @@ Abaixo está o mapa visual da rede montada dentro do simulador:
 
 
 
-### 🔌 Dispositivos e Conexões Utilizadas:
+### Dispositivos e Conexões Utilizadas:
 * **PC de Mesa:** Conectado ao roteador usando um cabo de rede comum (cabo Ethernet).
 * **Roteador Sem Fio:** Recebe o sinal e distribui a internet por cabo e por Wi-Fi.
 * **Cable Modem:** Aparelho que converte o sinal de internet que vem da rua (cabo coaxial) para a nossa rede de casa.
@@ -71,10 +64,15 @@ Os notebooks no simulador vêm de fábrica apenas com entrada para cabo. Para co
 
 ---
 
-## 💻 Ferramentas e Conceitos Aprendidos
+## Ferramentas e Conceitos Aprendidos
 
 * **Cisco Packet Tracer:** Software de simulação de redes.
 * **DHCP:** O "distribuidor" automático de endereços de internet da rede.
 * **IP:** O "RG" de cada aparelho conectado na rede.
 * **Cabo de Rede vs. Wi-Fi:** Como configurar e alternar entre conexões físicas e sem fio.
 * **Comando `ipconfig`:** Usado no terminal para descobrir o endereço IP do próprio computador.
+
+> **Nota de Isenção e Atribuição:**
+> Este repositório contém resoluções pessoais, anotações e configurações desenvolvidas por mim para fins de estudo e demonstração prática de habilidades. 
+> O exercício original faz parte do currículo da **Cisco Networking Academy (NetAcad)** (*Atividade: Criando uma Rede Simples*). 
+> Todos os direitos sobre conceitos e marcas registradas pertencem à Cisco Systems, Inc. Nenhum material proprietário ou protegido por direitos autorais da plataforma é redistribuído aqui.
